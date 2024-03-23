@@ -1,2 +1,2 @@
 # AtCoder-codes
-Atcoder精進用リポジトリ
+自分用のAtcoder精進用リポジトリです
