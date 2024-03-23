@@ -1,0 +1,15 @@
+# ユーザーからの入力を取得
+input_str = input()
+
+# 文字列が空でない場合のみ、最初と最後の文字を取得
+if input_str:
+    first_char = input_str[0]
+    last_char = input_str[-1]
+
+    # 最初の文字が '<' であり、文字列が '=' を含む場合、最後の文字が '>' であるかを判定
+    if first_char == '<' and '=' in input_str and last_char == '>':
+        print("Yes")
+    else:
+        print("No")
+else:
+    print("No")
