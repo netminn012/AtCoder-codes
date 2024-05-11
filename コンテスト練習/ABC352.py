@@ -9,7 +9,7 @@ if x>y:
     else:
         print("No")
 else:
-    if x>z>y
+    if x>z>y:
         print("Yes")
     else:
         print("No")
